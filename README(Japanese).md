@@ -1,4 +1,7 @@
 # vrc-discord-bot
+![Static Badge](https://img.shields.io/badge/Go-black?logo=go)
+![Static Badge](https://img.shields.io/badge/License-MIT-green)  
+
 ![](VRC-SOffFriend.gif)
 
 ## 概要
@@ -38,6 +41,24 @@ Bot is now running.  Press CTRL-C to exit.
   * オンラインのフレンドが表示されるのでその中から詳細情報を確認したいフレンド名を選択するとそのフレンドのカードが表示されます。
 * `!vrcbot ShowOfflineFriend`
   * オフラインのフレンドが表示されるのでその中から詳細情報を確認したいフレンド名を選択するとそのフレンドのカードが表示されます。
+
+## フレンドカードの表示内容
+|実装済み|内容|補足|
+|:--:|:--:|:--|
+|&#x2714;|ID||
+|&#x2714;|Name|表示名|
+|&#x2714;|Icon|アイコン|
+|&#x2714;|Avatar Thumbnail|アバター画像|
+|&#x2714;|BIO|説明|
+|&#x2714;|Status|ステータス|
+|△|Location|位置　現在はワールドIDが表示されるのでワールド名に変更予定|
+|&#x2714;|Tag Language|言語タグ|
+||Tag Social|ソーシャルタグ|
+||Tag Others|その他タグ|
+||Badge|バッジ|
+|&#x2714;|Trust Rank|トラストランク　カードの色はトラストランクの色|
+|&#x2714;|Last login date-time|最終ログイン日時|
+
 
 ## 予定
 * カードに表示する内容の追加
