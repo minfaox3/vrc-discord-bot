@@ -1,4 +1,6 @@
 # vrc-discord-bot
+![Static Badge](https://img.shields.io/badge/Go-black?logo=go)
+![Static Badge](https://img.shields.io/badge/License-MIT-green)  
 
 ![](VRC-SOffFriend.gif)
 
@@ -45,11 +47,28 @@ There are currently three commands supported.
 * `!vrcbot ShowOfflineFriend`
     * Select the name of the friend whose offline friends you want to see more information about, and the cards of that friend will be displayed.
 
+## Content of the friend card
+|Implemented|Content|Supplementation|
+|:--:|:--:|:--|
+|&#x2714;|ID||
+|&#x2714;|Name||
+|&#x2714;|Icon||
+|&#x2714;|Avatar Thumbnail||
+|&#x2714;|BIO||
+|&#x2714;|Status||
+|△|Location|Currently world ID, but will be changed to world name in the future|
+|&#x2714;|Tag Language||
+||Tag Social||
+||Tag Others||
+||Badge||
+|&#x2714;|Trust Rank|The color of the card is the color of the rank|
+|&#x2714;|Last login date-time|
+
 ## Plan
 * Addition of content to be displayed on the card
 * Add support for two-factor authentication other than email
 * Changed to call bots with slash commands instead of prefixes
-* Add　various APIs for VRChat
+* Add various APIs for VRChat
 * Add feature related to World
 * Add feature related to Group
 
