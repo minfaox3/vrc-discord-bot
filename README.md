@@ -62,7 +62,7 @@ There are currently three commands supported.
 ||Tag Others||
 ||Badge||
 |&#x2714;|Trust Rank|The color of the card is the color of the rank|
-|&#x2714;|Last login date-time|
+|&#x2714;|Last login date-time||
 
 ## Plan
 * Addition of content to be displayed on the card
